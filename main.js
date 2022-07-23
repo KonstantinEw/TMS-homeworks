@@ -67,6 +67,16 @@
     let nameLocal = prompt(`Введите Ваше имя: `);
     let ageLocal = prompt(`Введите Ваш возраст: `);
 
+    //8
+
+    let variableA = 4;
+    let variableB = 3;
+    [variableA,variableB]=[variableB,variableA];
+
+    console.log(variableA);
+    console.log(variableB);
+
+
 
     //9
 
