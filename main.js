@@ -38,7 +38,7 @@
     let b = 2;
     let c = "белых медведей";
 
-    console.log(String(a)+String(b)+' '+c);
+    console.log(`${a}${b} ${c}`);
 
     //5
 
@@ -58,14 +58,16 @@
     let secondVar = '42';
     let threeVar = false;
 
-    console.log(`Variable:${firstVar} have type: ${typeof (firstVar)}`);
-    console.log(`Variable:${secondVar} have type: ${typeof (secondVar)}`);
-    console.log(`Variable:${threeVar} have type: ${typeof (threeVar)}`);
+    console.log(`Variable: firstVar have type: ${typeof (firstVar)}`);
+    console.log(`Variable: secondVar have type: ${typeof (secondVar)}`);
+    console.log(`Variable: threeVar have type: ${typeof (threeVar)}`);
 
     //7
 
     let nameLocal = prompt(`Введите Ваше имя: `);
     let ageLocal = prompt(`Введите Ваш возраст: `);
+
+    console.log(nameLocal,ageLocal);
 
     //8
 
@@ -86,6 +88,6 @@
     let codeWord4 = "липкие";
     let codeWord5 = "?!";
 
-    let cipher = codeWord1[2-1]+codeWord2[2-1]+codeWord3[2-1]+codeWord4[2-1]+codeWord5[2-1];
+    let cipher = codeWord1[1]+codeWord2[1]+codeWord3[1]+codeWord4[1]+codeWord5[1];
 
     console.log(cipher)
