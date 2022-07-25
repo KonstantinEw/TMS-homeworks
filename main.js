@@ -67,7 +67,7 @@
     let nameLocal = prompt(`Введите Ваше имя: `);
     let ageLocal = prompt(`Введите Ваш возраст: `);
 
-    console.log(nameLocal,ageLocal);
+    console.log(`Вашу имя: ${nameLocal}, Ваш возраст: ${ageLocal}`)
 
     //8
 
